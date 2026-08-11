@@ -45,7 +45,7 @@ class PitVoxAudioEngine {
       osc.start();
       osc.stop(this.audioCtx.currentTime + 0.08);
     } catch {
-      // Ignore audio context errors gracefully
+      // TODO: Ignore audio context errors gracefully
     }
   }
 

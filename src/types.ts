@@ -1,7 +1,7 @@
 export type StressLevel = 'CALM' | 'ELEVATED' | 'CRITICAL';
 
 export interface ZoneData {
-  id: string; // e.g. "Z1", "Z2", "Z4"
+  id: string;
   zoneNumber: number;
   cornerName: string;
   timeRange: string;

@@ -1,3 +1,4 @@
+/*NOTE: This a sample data for testing only.*/
 import { DriverInfo, LapData, SystemNotice } from '../types';
 
 export const DEFAULT_DRIVER: DriverInfo = {
