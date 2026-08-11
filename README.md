@@ -1,4 +1,4 @@
-# PitVox
+# PitVox Engine: Driver State & Voice intelligence
 
 ![pitvox-logo](./assets/logo.png)
 
