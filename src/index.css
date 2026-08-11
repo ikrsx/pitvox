@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #f8fafc;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #0f172a;
+  }
+}
+
+.font-display {
+  font-family: 'Rajdhani', 'Inter', sans-serif;
+}
+
+.font-data-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.panel {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.04);
+  transition: all 0.2s ease;
+}
+
+.panel-header {
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+}
+
+.panel-dark {
+  background-color: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  color: #f8fafc;
+}
+
+/* Ribbon Gradients */
+.ribbon-green { background: linear-gradient(180deg, rgba(16,185,129,0.9) 0%, rgba(16,185,129,0.45) 100%); }
+.ribbon-amber { background: linear-gradient(180deg, rgba(245,158,11,0.9) 0%, rgba(245,158,11,0.45) 100%); }
+.ribbon-red { background: linear-gradient(180deg, rgba(239,68,68,0.95) 0%, rgba(239,68,68,0.5) 100%); }
+
+.hover-glow-green:hover {
+  box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.08), 0 8px 10px -6px rgba(37, 99, 235, 0.05);
+  border-color: #cbd5e1;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

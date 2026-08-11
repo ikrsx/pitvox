@@ -1,0 +1,6 @@
+{
+  "name": "PitVox Motorsport Dashboard",
+  "description": "PitVox Driver State & Multimodal AI Intelligence Telemetry Engine with Sensor Connectivity and Hugging Face Models for Motorsport Race Control",
+  "requestFramePermissions": ["microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
